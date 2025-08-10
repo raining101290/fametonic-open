@@ -5,7 +5,7 @@ import Logo from './icons/logo'
 const Header = () => {
   return (
     <header className="w-full mt-[35px] relative">
-        <div className="max-w-screen-2xl mx-auto px-5 lg:px-[211px] sm:px-[44px] flex justify-center md:justify-between items-center relative">
+        <div className="max-w-screen-2xl mx-auto px-5 lg:px-[211px] sm:px-[44px] flex justify-center md:justify-between relative">
             {/* Left: LOGO (centered on mobile) */}
             <Link href="/" alt="Fametonic logo">
                 <Logo className="h-auto logo" />
