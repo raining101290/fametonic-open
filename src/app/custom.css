@@ -1,0 +1,38 @@
+.color-light{
+    color: #00E7F9
+}
+.color-gray{
+    color: #ABABAB
+}
+.btn-shadow{
+    box-shadow: rgba(0,231,249,0.74) 3px 3px 8px;
+    border-radius: 10px;
+}
+.text-shadow-custom{
+    text-shadow: 3px 3px 4px #FC004E;
+}   
+.bullets p{
+    display: flex;
+    align-items: center;
+}
+.top-message{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26px;
+}
+@media screen and (max-width: 500px) {
+    .top-message {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 18px;
+    }
+    h1{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .logo{
+        width: 107px;
+        height: 46px;
+    }
+}
