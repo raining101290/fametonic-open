@@ -20,7 +20,11 @@
     font-weight: 600;
     line-height: 26px;
 }
-@media screen and (max-width: 500px) {
+.text-xs-custom{
+    font-size: 10px;
+    line-height: 14px;
+}
+@media screen and (max-width: 639px) {
     .top-message {
         font-size: 16px;
         font-weight: 600;
